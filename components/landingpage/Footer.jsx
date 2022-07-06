@@ -19,7 +19,7 @@ const Footer = () => {
             alt="Oowambe Logo"
             w={{ base: "100px", md: "132.14px" }}
           />
-          <Text mt="16px" fontSize={["14px","24px"]} maxW={{base:"136px", md:"100%"}}>Bringing your dream to reality</Text>
+          <Text mt={["3px","16px"]} fontSize={["14px","24px"]} maxW={{base:"136px", md:"100%"}}>Bringing your dream to reality</Text>
         </Box>
 
         <Box>

@@ -21,7 +21,7 @@ const Navbar = () => {
         alt="Oowambe Logo"
         w={{ base: "100px", md: "132.14px" }}
       />
-      <OowambeButton text="Join the waitlist" w="203px" />
+      <OowambeButton text="Join the waitlist" w={{base:"153px",md:"203px"}} />
     </Flex>
   );
 };
