@@ -2,6 +2,7 @@ import { Box, Flex, Image } from "@chakra-ui/react";
 import React from "react";
 import OowambeButton from "../OowambeButton";
 import Layout from "../Layout";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -21,7 +22,12 @@ const Navbar = () => {
         alt="Oowambe Logo"
         w={{ base: "100px", md: "132.14px" }}
       />
-      <OowambeButton text="Join the waitlist" w={{base:"153px",md:"203px"}} />
+      <Link to="hero" spy={true} smooth={true} offset={50} duration={500}>
+        <OowambeButton
+          text="Join the waitlist"
+          w={{ base: "153px", md: "203px" }}
+        />
+      </Link>
     </Flex>
   );
 };

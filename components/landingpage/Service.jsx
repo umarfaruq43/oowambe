@@ -1,12 +1,14 @@
 import { Box, Flex, Image, Text, SimpleGrid } from "@chakra-ui/react";
 import React from "react";
+import { Link } from "react-scroll";
+
 import OowambeButton from "../OowambeButton";
 
 const Service = () => {
   return (
     <Box
       bgImage={{ base: "/servicebgmobile.svg", sm: "/servicebg.svg" }}
-      mt={{base:"56px",md:"248px"}}
+      mt={{ base: "56px", md: "248px" }}
       minH="643px"
       bgPos="top"
       bgSize="cover"
@@ -29,7 +31,6 @@ const Service = () => {
           mx="auto"
           overflow="hidden"
           maxW="380px"
-          
         >
           <Box px="25px" pt="38px">
             <Text as="h3" fontSize="24px" mb="22px" fontWeight="700">
@@ -44,11 +45,19 @@ const Service = () => {
               all you need for your wedding.
             </Text>
             <Box mt="20px" mb="43px">
-              <OowambeButton
-                text="Get Started"
-                fontSize="18px"
-                w={{ base: "", md: "194px" }}
-              />
+              <Link
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                <OowambeButton
+                  text="Get Started"
+                  fontSize="18px"
+                  w={{ base: "", md: "194px" }}
+                />
+              </Link>
             </Box>
           </Box>
           <Image w="100%" src="service1.svg" alt="Know your budget image" />

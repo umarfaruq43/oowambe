@@ -11,6 +11,7 @@ const Hero = () => {
       bgSize="cover"
       px="0"
       fontFamily="font.text"
+      id="hero"
     >
       <Flex mx="auto" color="#fff">
         <Box

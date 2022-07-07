@@ -14,12 +14,23 @@ const Footer = () => {
         px="20px"
       >
         <Box>
-          <Image
-            src="/lightLogo.svg"
-            alt="Oowambe Logo"
-            w={{ base: "100px", md: "132.14px" }}
-          />
-          <Text mt={["3px","16px"]} fontSize={["14px","24px"]} maxW={{base:"136px", md:"100%"}}>Bringing your dream to reality</Text>
+          <NextLink href="/" passHref>
+            <Link>
+              <Image
+                src="/lightLogo.svg"
+                alt="Oowambe Logo"
+                w={{ base: "100px", md: "132.14px" }}
+              />
+            </Link>
+          </NextLink>
+
+          <Text
+            mt={["3px", "16px"]}
+            fontSize={["14px", "24px"]}
+            maxW={{ base: "136px", md: "100%" }}
+          >
+            Bringing your dream to reality
+          </Text>
         </Box>
 
         <Box>
