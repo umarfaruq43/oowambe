@@ -17,7 +17,7 @@ const Hero = () => {
           w={{ base: "60%", sm: "45%", md: "40%" }}
           pt={{ base: "26px", md: "113px" }}
           pb={{ base: "43px", md: "122px" }}
-          pl={["21px", " 10px", "10px", "112px"]}
+          pl={["21px", " 21px", "21px", "100px"]}
         >
           <Box maxW="455px">
             <Text

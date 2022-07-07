@@ -24,7 +24,8 @@ const Form = () => {
     <Box as="form" onSubmit={handleSubmit(onSubmit)}>
       <FormControl isInvalid={errors.name}>
         <Box mb={["20px", "24px"]}>
-          <Input
+          <Input 
+          id="email"
             fontSize={["16px", "18px"]}
             h={["40px", "58px"]}
             bgColor="brand.50"
@@ -42,7 +43,8 @@ const Form = () => {
           )}
         </Box>
         <Box mb={["20px", "24px"]}>
-          <Input
+          <Input 
+          id="password"
             fontSize={["16px", "18px"]}
             h={["40px", "58px"]}
             bgColor="brand.50"

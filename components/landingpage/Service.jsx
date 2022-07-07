@@ -6,7 +6,7 @@ const Service = () => {
   return (
     <Box
       bgImage={{ base: "/servicebgmobile.svg", sm: "/servicebg.svg" }}
-      mt="300px"
+      mt={{base:"56px",md:"248px"}}
       minH="643px"
       bgPos="top"
       bgSize="cover"

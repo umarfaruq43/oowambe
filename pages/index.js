@@ -25,7 +25,7 @@ export default function Home() {
       <Layout>
         <Navbar />
         <Hero />
-        {/* <Plan /> */}
+        <Plan />
         <Service />
         <Video />
         <Footer />
