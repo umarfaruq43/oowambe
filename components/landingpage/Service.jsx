@@ -13,15 +13,17 @@ const Service = () => {
       bgPos="top"
       bgSize="cover"
       bgRepeat="no-repeat"
-      px="10px"
+      // px="10px"
       pb="93px"
     >
       <SimpleGrid
         minChildWidth="250px"
-        maxW="1200px"
-        gap="25px"
+        // maxW="1200px"
+
+        gap="30px"
         mx="auto"
-        px={{ base: "5px", md: "10px" }}
+        // px={{ base: "5px", md: "10px" }}
+        px={["21px", " 21px", "21px", "100px"]}
       >
         <Box
           w="100%"

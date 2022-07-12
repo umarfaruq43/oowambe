@@ -18,6 +18,11 @@ const theme = extendTheme({
     heading: `'Open Sans', sans-serif`,
     body: `Quicksand, sans-serif`,
   },
+  global: {
+    html: {
+      fontSize: "10px",
+    },
+  },
 });
 
 export default theme;

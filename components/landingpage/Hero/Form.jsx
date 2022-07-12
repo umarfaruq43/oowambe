@@ -42,7 +42,7 @@ const Form = () => {
             </Text>
           )}
         </Box>
-        <Box mb={["20px", "24px"]}>
+        <Box mb={["20px", "30px"]}>
           <Input 
           id="password"
             fontSize={["16px", "18px"]}

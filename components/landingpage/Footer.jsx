@@ -10,8 +10,9 @@ const Footer = () => {
         alignItems="end"
         color="brand.50"
         mx="auto"
-        maxW="1200px"
-        px="20px"
+        px={["21px", " 21px", "21px", "100px"]}
+        // maxW="1200px"
+        // px="20px"
       >
         <Box>
           <NextLink href="/" passHref>
