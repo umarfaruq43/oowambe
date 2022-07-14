@@ -9,16 +9,17 @@ const Hero = () => {
       bgRepeat="no-repeat"
       bgPos="center"
       bgSize="cover"
-      px="0"
+      // px="0"
       fontFamily="font.text"
       id="hero"
+      px={{ base: "20px" }}
     >
       <Flex mx="auto" color="#fff" maxW="1200px">
         <Box
           w={{ base: "60%", sm: "45%", md: "40%" }}
           pt={{ base: "26px", md: "113px" }}
           pb={{ base: "43px", md: "122px" }}
-          pl={["21px", " 21px", "21px", "100px"]}
+          // pl={["21px", " 21px", "21px", "100px"]}
         >
           <Box maxW="455px">
             <Text

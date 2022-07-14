@@ -13,7 +13,7 @@ const Service = () => {
       bgPos="top"
       bgSize="cover"
       bgRepeat="no-repeat"
-      // px="10px"
+      px="20px"
       pb="93px"
     >
       <SimpleGrid
