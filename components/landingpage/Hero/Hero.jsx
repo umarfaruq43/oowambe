@@ -13,7 +13,7 @@ const Hero = () => {
       fontFamily="font.text"
       id="hero"
     >
-      <Flex mx="auto" color="#fff">
+      <Flex mx="auto" color="#fff" maxW="1200px">
         <Box
           w={{ base: "60%", sm: "45%", md: "40%" }}
           pt={{ base: "26px", md: "113px" }}

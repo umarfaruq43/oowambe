@@ -14,7 +14,7 @@ const Navbar = () => {
       pb={{ base: "10px" }}
       h={{ base: "", md: "182px" }}
       mx="auto"
-      // maxW="1200px"
+      maxW="1200px"
       px={["21px", " 21px", "21px", "100px"]}
       
     >
