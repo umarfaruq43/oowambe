@@ -20,7 +20,7 @@ const Hero = () => {
           pb={{ base: "43px", md: "122px" }}
           pl={["21px", " 21px", "21px", "100px"]}
         >
-          <Box >
+          <Box maxW="455px">
             <Text
               fontFamily="font.text"
               fontSize={{ base: "18px", sm: "24px", md: "36px" }}
