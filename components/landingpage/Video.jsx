@@ -9,7 +9,7 @@ const Video = () => {
       {/* <iframe title="naruto" src="/video/video.mp4" allowFullScreen /> */}
       {/* </AspectRatio> */}
 
-      <video  loop autoPlay muted width="100%" src="/video/video.mp4">
+      <video  loop autoPlay muted width="100%" src="/video/video1.mp4">
         {/* <source  type="video/mp4" /> */}
       </video>
     </Box>

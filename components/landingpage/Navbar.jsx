@@ -15,8 +15,7 @@ const Navbar = () => {
       h={{ base: "", md: "182px" }}
       mx="auto"
       maxW="1200px"
-      px={{base:"20px"}}
-      
+      px={{ base: "20px" }}
     >
       <Image
         src="/logo.svg"

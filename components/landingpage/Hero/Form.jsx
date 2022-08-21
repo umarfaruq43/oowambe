@@ -1,4 +1,12 @@
-import { Input, Text, Box, useToast, FormControl } from "@chakra-ui/react";
+import {
+  Input,
+  Text,
+  Box,
+  useToast,
+  FormControl,
+  Checkbox,
+  Flex,
+} from "@chakra-ui/react";
 import React from "react";
 import { useForm } from "react-hook-form";
 import OowambeButton from "../../../components/OowambeButton";
@@ -24,8 +32,8 @@ const Form = () => {
     <Box as="form" onSubmit={handleSubmit(onSubmit)}>
       <FormControl isInvalid={errors.name}>
         <Box mb={["20px", "24px"]}>
-          <Input 
-          id="email"
+          <Input
+            id="email"
             fontSize={["16px", "18px"]}
             h={["40px", "58px"]}
             bgColor="brand.50"
@@ -37,14 +45,19 @@ const Form = () => {
             {...register("email", { required: "*Email is Required" })}
           />
           {errors.email && (
-            <Text color="red.500" fontSize={{base:"12px", md:"16px"}} mt="2px" fontWeight="600">
+            <Text
+              color="red.500"
+              fontSize={{ base: "12px", md: "16px" }}
+              mt="2px"
+              fontWeight="600"
+            >
               {errors.email.message}
             </Text>
           )}
         </Box>
         <Box mb={["20px", "30px"]}>
-          <Input 
-          id="password"
+          <Input
+            id="password"
             fontSize={["16px", "18px"]}
             h={["40px", "58px"]}
             bgColor="brand.50"
@@ -62,7 +75,12 @@ const Form = () => {
             })}
           />
           {errors.password && (
-            <Text color="red.500" fontSize={{base:"12px", md:"16px"}} mt="2px" fontWeight="600">
+            <Text
+              color="red.500"
+              fontSize={{ base: "12px", md: "16px" }}
+              mt="2px"
+              fontWeight="600"
+            >
               {errors.password.message}
             </Text>
           )}
@@ -74,6 +92,19 @@ const Form = () => {
         h={["44px", "58px"]}
         text="Join the waitlist"
       />
+      <Box
+        mt={["20px", "32px"]}
+        fontWeight="700"
+        fontSize={["16px", "24px"]}
+        lineHeight="1.3"
+        // align="center"
+        // display="inline-block"
+      >
+        {/* <Text > */} Please tick if you are a vendor {/* </Text> */}
+        <Box display="inline-block" bgColor="red" lineHeight="0.8">
+          <Checkbox size={["sm", "lg"]} bgColor="#fff"></Checkbox>
+        </Box>
+      </Box>
     </Box>
   );
 };
