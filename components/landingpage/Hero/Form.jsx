@@ -101,7 +101,7 @@ const Form = () => {
         // display="inline-block"
       >
         {/* <Text > */} Please tick if you are a vendor {/* </Text> */}
-        <Box display="inline-block" bgColor="red" lineHeight="0.8">
+        <Box display="inline-block" lineHeight="0.8">
           <Checkbox size={["sm", "lg"]} bgColor="#fff"></Checkbox>
         </Box>
       </Box>
